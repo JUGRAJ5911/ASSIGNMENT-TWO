@@ -1,0 +1,72 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.box {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #030303;
+}
+
+.lyrics {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+}
+
+.verse1 {
+    font-style: italic;
+    color: #ff00ff;/* MAGENTA FOR CONTENTMENT */
+}
+
+.refrain {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2b4e7a; /* DARK BLUE FOR LONGING */
+}
+
+.verse2 {
+    font-style: italic;
+    color: #9370db;/* LIGHT PURPLE FOR NOSTALGIA */
+}
+
+.chorus {
+    font-style: italic;
+    font-weight: bold;
+    color: #808080; /* GRAY COLOR FOR APPREHENSION */
+}
+
+.post-chorus {
+    font-weight: bold;
+    color: #dc3545;/* RED FOR YELLING */
+}
+
+.break {
+    font-style: italic;
+    color: #dc3545; /* RED FOR YELLING */
+}
+
+.outro {
+    font-weight: bold;
+    color: #8B4513;/* BROWN FOR EARTHINESS */
+}
